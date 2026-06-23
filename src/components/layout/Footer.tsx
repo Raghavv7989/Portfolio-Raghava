@@ -35,6 +35,7 @@ export function Footer() {
                 <Link href="/about" className="hover:text-accent transition-colors">About</Link>
                 <Link href="/journey" className="hover:text-accent transition-colors">Journey</Link>
                 <Link href="/projects" className="hover:text-accent transition-colors">Projects</Link>
+                <Link href="/education" className="hover:text-accent transition-colors">Education</Link>
                 <Link href="/certifications" className="hover:text-accent transition-colors">Certifications</Link>
               </div>
               <div className="flex flex-col space-y-4">

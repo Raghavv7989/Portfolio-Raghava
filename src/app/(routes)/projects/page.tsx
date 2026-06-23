@@ -100,6 +100,20 @@ const projects = [
     slug: "handcalc",
     image: "/images/gaming_ai.png",
   },
+  {
+    title: "Emotion Based Music Player",
+    category: "AI / Audio",
+    tech: "Python, OpenCV",
+    slug: "emotion-music",
+    image: "/images/img_emotion_music_custom.png",
+  },
+  {
+    title: "EcoRewards",
+    category: "Full Stack",
+    tech: "React, Node.js",
+    slug: "ecorewards",
+    image: "/images/img_ecorewards_custom.png",
+  },
 ];
 
 export default function ProjectsPage() {

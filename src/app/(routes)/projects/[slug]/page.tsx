@@ -118,6 +118,22 @@ const getProjectData = (slug: string) => {
       overview: "A touchless calculator application operated by specific finger counts and gestures.",
       architecture: "Combines MediaPipe hand tracking with a custom state machine to interpret finger counts and gesture sequences as mathematical operators and digits."
     },
+    "ecorewards": { 
+      title: "EcoRewards", 
+      category: "Full Stack", 
+      tech: ["React", "Node.js", "MongoDB", "Blockchain"], 
+      image: "/images/img_ecorewards_custom.png",
+      overview: "An innovative platform that incentivizes environmental sustainability by rewarding users with digital tokens for recycling plastic waste.",
+      architecture: "The application features a secure user dashboard to track recycling metrics and a robust backend to handle reward distributions. It integrates seamlessly with local recycling centers to verify deposits, using a combination of MongoDB for data persistence and a token-based reward logic."
+    },
+    "emotion-music": { 
+      title: "Emotion Based Music Player", 
+      category: "AI / Audio", 
+      tech: ["Python", "OpenCV", "Deep Learning", "Spotify API"], 
+      image: "/images/img_emotion_music_custom.png",
+      overview: "An intelligent music player that curates and plays music dynamically based on the user's real-time facial expressions and detected mood.",
+      architecture: "Utilizes OpenCV and a Convolutional Neural Network (CNN) to capture and classify live webcam feeds into distinct emotional states (happy, sad, neutral). The backend maps these emotions to custom Spotify API endpoints to instantly adjust the playlist, creating a highly personalized and interactive auditory experience."
+    },
   };
 
   return data[slug] || null;

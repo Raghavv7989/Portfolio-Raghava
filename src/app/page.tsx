@@ -27,6 +27,12 @@ const showcaseProjects = [
     category: "Full Stack",
     slug: "languify-google-translate",
     image: "/images/img_languify_translation.png",
+  },
+  {
+    title: "EcoRewards",
+    category: "Full Stack",
+    slug: "ecorewards",
+    image: "/images/img_ecorewards_custom.png",
   }
 ];
 
@@ -34,6 +40,24 @@ export default function Home() {
   return (
     <div className="w-full">
       <Hero />
+
+      <section className="py-24 px-6 md:px-12 bg-secondary/30">
+        <div className="container mx-auto">
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-slate mb-12">Experience</h2>
+          <div className="max-w-4xl border-l border-slate/10 pl-8 space-y-12">
+            <div className="relative group">
+              <div className="absolute -left-[41px] top-1 h-5 w-5 rounded-full bg-secondary border-4 border-primary group-hover:bg-accent transition-colors duration-300"></div>
+              <p className="text-highlight text-sm font-bold tracking-widest uppercase mb-2">Research Intern</p>
+              <h3 className="text-2xl font-serif font-bold text-slate mb-2">SRM University</h3>
+              <p className="text-slate/70 leading-relaxed">
+                Worked extensively on Credit Card Fraud Detection using advanced machine learning algorithms. 
+                Developed and optimized models using Python, XGBoost, and Scikit-learn, handling severe class imbalance 
+                with SMOTE to significantly improve precision and reduce false positives in transaction data.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       
       <section className="py-32 px-6 md:px-12">
         <div className="container mx-auto">
