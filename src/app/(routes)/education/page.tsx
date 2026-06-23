@@ -4,21 +4,21 @@ export default function EducationPage() {
       degree: "Bachelor's Degree",
       field: "Computer Science (Artificial Intelligence & Machine Learning)",
       institution: "SRM University",
-      period: "2021 - 2025",
+      period: "2023 - 2027",
       description: "Focusing on advanced algorithms, data structures, deep learning, and computer vision. Active participant in AI/ML research."
     },
     {
       degree: "Intermediate",
       field: "MPC (Maths, Physics, Chemistry)",
       institution: "Sri Chaitanya Junior College",
-      period: "2019 - 2021",
+      period: "2021 - 2023",
       description: "Secured top grades with a strong foundation in mathematics and analytical problem-solving."
     },
     {
       degree: "Matriculation",
       field: "High School",
       institution: "Sri Chaitanya Techno School",
-      period: "2018 - 2019",
+      period: "till 2021",
       description: "Graduated with honors, establishing early interests in computer science and logical reasoning."
     }
   ];
